@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "png-transparent-frame-gold-frame-gold-frame-rectangular-brown-ornate-frame-frame-golden-frame-trendy-frame-thumbnail.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

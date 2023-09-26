@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4220C0FE29CC21D000830689 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4220C0FD29CC21D000830689 /* AppDelegate.swift */; };
+		4220C10029CC21D000830689 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4220C0FF29CC21D000830689 /* GameScene.sks */; };
+		4220C10229CC21D000830689 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4220C10129CC21D000830689 /* Actions.sks */; };
+		4220C10429CC21D000830689 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4220C10329CC21D000830689 /* GameScene.swift */; };
+		4220C10629CC21D000830689 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4220C10529CC21D000830689 /* GameViewController.swift */; };
+		4220C10B29CC21D200830689 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4220C10A29CC21D200830689 /* Assets.xcassets */; };
+		42AC1AB929D0A1AB003E40DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42AC1AB829D0A1AB003E40DB /* LaunchScreen.storyboard */; };
+		42AC1ABB29D0A1E9003E40DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42AC1ABA29D0A1E9003E40DB /* Main.storyboard */; };
+		8F1D5E5829D0104D0040293E /* SpriteKitContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1D5E5729D0104D0040293E /* SpriteKitContainer.swift */; };
+		8F1D5E5A29D0117F0040293E /* SpriteKitScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1D5E5929D0117F0040293E /* SpriteKitScene.swift */; };
+		8F1D5E5C29D02EE90040293E /* hint.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F1D5E5B29D02EE90040293E /* hint.png */; };
+		8F1D5E6A29D03E700040293E /* Chef.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F1D5E6529D03E700040293E /* Chef.png */; };
+		8F1D5E6B29D03E700040293E /* Wife.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F1D5E6629D03E700040293E /* Wife.png */; };
+		8F1D5E6C29D03E700040293E /* Butler.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F1D5E6729D03E700040293E /* Butler.png */; };
+		8F1D5E6D29D03E700040293E /* BG.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F1D5E6829D03E700040293E /* BG.png */; };
+		8F1D5E6E29D03E700040293E /* Gardener.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F1D5E6929D03E700040293E /* Gardener.png */; };
+		8F1D5E7029D040520040293E /* house.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8F1D5E6F29D040520040293E /* house.jpg */; };
+		8F1D5E7729D074A80040293E /* Hint Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F1D5E7529D074A80040293E /* Hint Icon.png */; };
+		8F1D5E7829D074A80040293E /* Swipe Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F1D5E7629D074A80040293E /* Swipe Icon.png */; };
+		8F1D5E7A29D07B950040293E /* bgb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8F1D5E7929D07B950040293E /* bgb.jpg */; };
+		8F1D5E7C29D07C640040293E /* win.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8F1D5E7B29D07C640040293E /* win.jpg */; };
+		8F51E16029D08F8400F68471 /* testApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F51E15F29D08F8400F68471 /* testApp.swift */; };
+		8F554CAC29CF6CA800C01CFD /* glass.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F554CAB29CF6CA800C01CFD /* glass.png */; };
+		8FA53D4529CF3D4500D58848 /* itemfound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8FA53D4329CF3D4500D58848 /* itemfound.mp3 */; };
+		8FA53D4629CF3D4500D58848 /* bg.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8FA53D4429CF3D4500D58848 /* bg.mp3 */; };
+		8FE058C629CF617F00CE31F9 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 8FE058C529CF617F00CE31F9 /* Lottie */; };
+		8FE058D729CF626900CE31F9 /* Groteska-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8FE058C929CF626900CE31F9 /* Groteska-Bold.ttf */; };
+		8FE058D829CF626900CE31F9 /* Old Charlotte.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8FE058CA29CF626900CE31F9 /* Old Charlotte.otf */; };
+		8FE058DA29CF626900CE31F9 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE058CC29CF626900CE31F9 /* LottieView.swift */; };
+		8FE058DB29CF626900CE31F9 /* knife11.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FE058CD29CF626900CE31F9 /* knife11.png */; };
+		8FE058DD29CF626900CE31F9 /* Groteska-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8FE058CF29CF626900CE31F9 /* Groteska-Medium.ttf */; };
+		8FE058DE29CF626900CE31F9 /* Old-Charlotte.woff in Resources */ = {isa = PBXBuildFile; fileRef = 8FE058D029CF626900CE31F9 /* Old-Charlotte.woff */; };
+		8FE058DF29CF626900CE31F9 /* Main Page.json in Resources */ = {isa = PBXBuildFile; fileRef = 8FE058D129CF626900CE31F9 /* Main Page.json */; };
+		8FE058E029CF626900CE31F9 /* Old Charlotte.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8FE058D229CF626900CE31F9 /* Old Charlotte.ttf */; };
+		8FE058E129CF626900CE31F9 /* Groteska-Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8FE058D329CF626900CE31F9 /* Groteska-Book.ttf */; };
+		8FE058E229CF626900CE31F9 /* Main Page.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8FE058D429CF626900CE31F9 /* Main Page.mp4 */; };
+		8FE058E329CF626900CE31F9 /* Rectangle.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FE058D529CF626900CE31F9 /* Rectangle.png */; };
+		8FE058E429CF626900CE31F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE058D629CF626900CE31F9 /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4220C0FA29CC21D000830689 /* testHiddenObject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testHiddenObject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4220C0FD29CC21D000830689 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4220C0FF29CC21D000830689 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		4220C10129CC21D000830689 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		4220C10329CC21D000830689 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		4220C10529CC21D000830689 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		4220C10A29CC21D200830689 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42AC1AB829D0A1AB003E40DB /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		42AC1ABA29D0A1E9003E40DB /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		8F1D5E5729D0104D0040293E /* SpriteKitContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKitContainer.swift; sourceTree = "<group>"; };
+		8F1D5E5929D0117F0040293E /* SpriteKitScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKitScene.swift; sourceTree = "<group>"; };
+		8F1D5E5B29D02EE90040293E /* hint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hint.png; sourceTree = "<group>"; };
+		8F1D5E6529D03E700040293E /* Chef.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chef.png; sourceTree = "<group>"; };
+		8F1D5E6629D03E700040293E /* Wife.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wife.png; sourceTree = "<group>"; };
+		8F1D5E6729D03E700040293E /* Butler.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Butler.png; sourceTree = "<group>"; };
+		8F1D5E6829D03E700040293E /* BG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BG.png; sourceTree = "<group>"; };
+		8F1D5E6929D03E700040293E /* Gardener.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Gardener.png; sourceTree = "<group>"; };
+		8F1D5E6F29D040520040293E /* house.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = house.jpg; sourceTree = "<group>"; };
+		8F1D5E7529D074A80040293E /* Hint Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hint Icon.png"; sourceTree = "<group>"; };
+		8F1D5E7629D074A80040293E /* Swipe Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Swipe Icon.png"; sourceTree = "<group>"; };
+		8F1D5E7929D07B950040293E /* bgb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bgb.jpg; sourceTree = "<group>"; };
+		8F1D5E7B29D07C640040293E /* win.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = win.jpg; sourceTree = "<group>"; };
+		8F51E15F29D08F8400F68471 /* testApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = testApp.swift; sourceTree = "<group>"; };
+		8F554CAB29CF6CA800C01CFD /* glass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = glass.png; path = "../../../Desktop/test/test/Preview Content/glass.png"; sourceTree = "<group>"; };
+		8F554CAD29CF6CE000C01CFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FA53D4329CF3D4500D58848 /* itemfound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = itemfound.mp3; sourceTree = "<group>"; };
+		8FA53D4429CF3D4500D58848 /* bg.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bg.mp3; sourceTree = "<group>"; };
+		8FE058C929CF626900CE31F9 /* Groteska-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Groteska-Bold.ttf"; sourceTree = "<group>"; };
+		8FE058CA29CF626900CE31F9 /* Old Charlotte.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Old Charlotte.otf"; sourceTree = "<group>"; };
+		8FE058CC29CF626900CE31F9 /* LottieView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		8FE058CD29CF626900CE31F9 /* knife11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = knife11.png; sourceTree = "<group>"; };
+		8FE058CF29CF626900CE31F9 /* Groteska-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Groteska-Medium.ttf"; sourceTree = "<group>"; };
+		8FE058D029CF626900CE31F9 /* Old-Charlotte.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Old-Charlotte.woff"; sourceTree = "<group>"; };
+		8FE058D129CF626900CE31F9 /* Main Page.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Main Page.json"; sourceTree = "<group>"; };
+		8FE058D229CF626900CE31F9 /* Old Charlotte.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Old Charlotte.ttf"; sourceTree = "<group>"; };
+		8FE058D329CF626900CE31F9 /* Groteska-Book.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Groteska-Book.ttf"; sourceTree = "<group>"; };
+		8FE058D429CF626900CE31F9 /* Main Page.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Main Page.mp4"; sourceTree = "<group>"; };
+		8FE058D529CF626900CE31F9 /* Rectangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rectangle.png; sourceTree = "<group>"; };
+		8FE058D629CF626900CE31F9 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4220C0F729CC21D000830689 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FE058C629CF617F00CE31F9 /* Lottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4220C0F129CC21D000830689 = {
+			isa = PBXGroup;
+			children = (
+				8FA53D4429CF3D4500D58848 /* bg.mp3 */,
+				8FA53D4329CF3D4500D58848 /* itemfound.mp3 */,
+				4220C0FC29CC21D000830689 /* testHiddenObject */,
+				4220C0FB29CC21D000830689 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4220C0FB29CC21D000830689 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4220C0FA29CC21D000830689 /* testHiddenObject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4220C0FC29CC21D000830689 /* testHiddenObject */ = {
+			isa = PBXGroup;
+			children = (
+				8F554CAD29CF6CE000C01CFD /* Info.plist */,
+				8FE058D629CF626900CE31F9 /* ContentView.swift */,
+				8FE058C929CF626900CE31F9 /* Groteska-Bold.ttf */,
+				8F1D5E7929D07B950040293E /* bgb.jpg */,
+				8F1D5E5929D0117F0040293E /* SpriteKitScene.swift */,
+				8F1D5E7629D074A80040293E /* Swipe Icon.png */,
+				8F1D5E7529D074A80040293E /* Hint Icon.png */,
+				8FE058D329CF626900CE31F9 /* Groteska-Book.ttf */,
+				8F1D5E5729D0104D0040293E /* SpriteKitContainer.swift */,
+				8F1D5E6829D03E700040293E /* BG.png */,
+				8F1D5E6729D03E700040293E /* Butler.png */,
+				8F1D5E6529D03E700040293E /* Chef.png */,
+				8F1D5E6929D03E700040293E /* Gardener.png */,
+				8F1D5E7B29D07C640040293E /* win.jpg */,
+				8F1D5E6629D03E700040293E /* Wife.png */,
+				8FE058CF29CF626900CE31F9 /* Groteska-Medium.ttf */,
+				8F1D5E5B29D02EE90040293E /* hint.png */,
+				8FE058CD29CF626900CE31F9 /* knife11.png */,
+				8FE058CC29CF626900CE31F9 /* LottieView.swift */,
+				8F554CAB29CF6CA800C01CFD /* glass.png */,
+				8FE058D129CF626900CE31F9 /* Main Page.json */,
+				8FE058D429CF626900CE31F9 /* Main Page.mp4 */,
+				8FE058CA29CF626900CE31F9 /* Old Charlotte.otf */,
+				8FE058D229CF626900CE31F9 /* Old Charlotte.ttf */,
+				8FE058D029CF626900CE31F9 /* Old-Charlotte.woff */,
+				8FE058D529CF626900CE31F9 /* Rectangle.png */,
+				4220C0FD29CC21D000830689 /* AppDelegate.swift */,
+				4220C0FF29CC21D000830689 /* GameScene.sks */,
+				4220C10129CC21D000830689 /* Actions.sks */,
+				8F51E15F29D08F8400F68471 /* testApp.swift */,
+				4220C10329CC21D000830689 /* GameScene.swift */,
+				4220C10529CC21D000830689 /* GameViewController.swift */,
+				4220C10A29CC21D200830689 /* Assets.xcassets */,
+				8F1D5E6F29D040520040293E /* house.jpg */,
+				42AC1ABA29D0A1E9003E40DB /* Main.storyboard */,
+				42AC1AB829D0A1AB003E40DB /* LaunchScreen.storyboard */,
+			);
+			path = testHiddenObject;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4220C0F929CC21D000830689 /* testHiddenObject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4220C11129CC21D200830689 /* Build configuration list for PBXNativeTarget "testHiddenObject" */;
+			buildPhases = (
+				4220C0F629CC21D000830689 /* Sources */,
+				4220C0F729CC21D000830689 /* Frameworks */,
+				4220C0F829CC21D000830689 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = testHiddenObject;
+			packageProductDependencies = (
+				8FE058C529CF617F00CE31F9 /* Lottie */,
+			);
+			productName = testHiddenObject;
+			productReference = 4220C0FA29CC21D000830689 /* testHiddenObject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4220C0F229CC21D000830689 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					4220C0F929CC21D000830689 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 4220C0F529CC21D000830689 /* Build configuration list for PBXProject "testHiddenObject" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4220C0F129CC21D000830689;
+			packageReferences = (
+				8FE058C429CF617F00CE31F9 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
+			productRefGroup = 4220C0FB29CC21D000830689 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4220C0F929CC21D000830689 /* testHiddenObject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4220C0F829CC21D000830689 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F1D5E7C29D07C640040293E /* win.jpg in Resources */,
+				8F554CAC29CF6CA800C01CFD /* glass.png in Resources */,
+				8FE058E029CF626900CE31F9 /* Old Charlotte.ttf in Resources */,
+				8FA53D4629CF3D4500D58848 /* bg.mp3 in Resources */,
+				4220C10029CC21D000830689 /* GameScene.sks in Resources */,
+				8FE058DE29CF626900CE31F9 /* Old-Charlotte.woff in Resources */,
+				42AC1ABB29D0A1E9003E40DB /* Main.storyboard in Resources */,
+				4220C10B29CC21D200830689 /* Assets.xcassets in Resources */,
+				8FE058E329CF626900CE31F9 /* Rectangle.png in Resources */,
+				8F1D5E6E29D03E700040293E /* Gardener.png in Resources */,
+				8FE058DD29CF626900CE31F9 /* Groteska-Medium.ttf in Resources */,
+				8F1D5E7729D074A80040293E /* Hint Icon.png in Resources */,
+				8F1D5E6D29D03E700040293E /* BG.png in Resources */,
+				8FE058DF29CF626900CE31F9 /* Main Page.json in Resources */,
+				8FE058DB29CF626900CE31F9 /* knife11.png in Resources */,
+				8FE058E129CF626900CE31F9 /* Groteska-Book.ttf in Resources */,
+				8F1D5E5C29D02EE90040293E /* hint.png in Resources */,
+				8F1D5E7029D040520040293E /* house.jpg in Resources */,
+				8F1D5E7A29D07B950040293E /* bgb.jpg in Resources */,
+				8F1D5E6C29D03E700040293E /* Butler.png in Resources */,
+				8FE058D729CF626900CE31F9 /* Groteska-Bold.ttf in Resources */,
+				4220C10229CC21D000830689 /* Actions.sks in Resources */,
+				8F1D5E7829D074A80040293E /* Swipe Icon.png in Resources */,
+				42AC1AB929D0A1AB003E40DB /* LaunchScreen.storyboard in Resources */,
+				8FA53D4529CF3D4500D58848 /* itemfound.mp3 in Resources */,
+				8F1D5E6A29D03E700040293E /* Chef.png in Resources */,
+				8F1D5E6B29D03E700040293E /* Wife.png in Resources */,
+				8FE058D829CF626900CE31F9 /* Old Charlotte.otf in Resources */,
+				8FE058E229CF626900CE31F9 /* Main Page.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4220C0F629CC21D000830689 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F1D5E5A29D0117F0040293E /* SpriteKitScene.swift in Sources */,
+				4220C10429CC21D000830689 /* GameScene.swift in Sources */,
+				4220C10629CC21D000830689 /* GameViewController.swift in Sources */,
+				8FE058E429CF626900CE31F9 /* ContentView.swift in Sources */,
+				8FE058DA29CF626900CE31F9 /* LottieView.swift in Sources */,
+				8F1D5E5829D0104D0040293E /* SpriteKitContainer.swift in Sources */,
+				4220C0FE29CC21D000830689 /* AppDelegate.swift in Sources */,
+				8F51E16029D08F8400F68471 /* testApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4220C10F29CC21D200830689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4220C11029CC21D200830689 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4220C11229CC21D200830689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CUPB4VV6K2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = testHiddenObject/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Mystery Mansion";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = josh.testHiddenObject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4220C11329CC21D200830689 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CUPB4VV6K2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = testHiddenObject/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Mystery Mansion";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = josh.testHiddenObject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4220C0F529CC21D000830689 /* Build configuration list for PBXProject "testHiddenObject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4220C10F29CC21D200830689 /* Debug */,
+				4220C11029CC21D200830689 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4220C11129CC21D200830689 /* Build configuration list for PBXNativeTarget "testHiddenObject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4220C11229CC21D200830689 /* Debug */,
+				4220C11329CC21D200830689 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8FE058C429CF617F00CE31F9 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8FE058C529CF617F00CE31F9 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8FE058C429CF617F00CE31F9 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 4220C0F229CC21D000830689 /* Project object */;
+}
